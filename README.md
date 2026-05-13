@@ -1,2 +1,13 @@
 # Vectorial-Puzzle-Engine
 A C#-based puzzle game core built on vectorial math and modular OOP level architecture.
+
+##  Core Concept & Gameplay Loop
+
+At its core, the game is built around a single, straightforward objective: hitting a target with a turret. However, by introducing strategic obstacles and interactable mechanics, this simple premise evolves into a complex, deterministic puzzle experience.
+
+The system derives its depth from the emergent interactions of a limited set of core objects, allowing for a vast array of logical solutions:
+* **Mirrors:** Deflect the projectile's trajectory to navigate around obstacles.
+* **Portals:** Bypass spatial constraints, granting access to seemingly unreachable areas on the grid.
+* **Splitters:** Duplicate the projectile, enabling the player to hit multiple targets simultaneously within a single level.
+
+By combining these fundamental tools, the engine generates highly diverse and challenging puzzles from a very minimal set of rules.
